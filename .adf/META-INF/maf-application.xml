@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<adfmf:application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adfmf="http://xmlns.oracle.com/adf/mf"
+                   version="1.0.0" name="opa-hello-world" id="com.oracle.determinations.mobile"
+                   appControllerFolder="ApplicationController">
+  <adfmf:featureReference refId="com.oracle.determinations.mobile.feature1" id="fr1" showOnNavigationBar="false"
+                          showOnSpringboard="false"/>
+  <adfmf:preferences/>
+  <adfmf:navigation>
+    <adfmf:navigationBar enabled="false"/>
+  </adfmf:navigation>
+</adfmf:application>
